@@ -22,7 +22,13 @@ To write a Python program to compute the power of a given number using an approp
 ### PROGRAM
 
 ```
+a=int(input())
+b=int(input())
+power=lambda a,b:pow(a,b)
+print("Power of the given number is:",power(a,b))
 ```
 ### OUTPUT
+![image](https://github.com/user-attachments/assets/960f5522-5de6-4cdb-8ff0-65c4ab2a8708)
 
 ### RESULT
+Thus a Python program to compute the power of a given number using an appropriate built-in function was executed and implemented successfully.
