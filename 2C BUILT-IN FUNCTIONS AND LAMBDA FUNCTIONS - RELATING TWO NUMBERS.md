@@ -24,17 +24,19 @@ To write a Python program to check the relation between two numbers — whether 
 ### PROGRAM
 
 ```
-
+x=int(input())
+y=int(input())
+if(x<y):
+    print(x,"is smaller than",y)
+else:
+    print(y,"is smaller than",x)
 ```
 
 ### OUTPUT
 
-```
+![image](https://github.com/user-attachments/assets/e170476f-2212-4951-a1cc-3412b99fc18e)
 
-```
 
 ### RESULT
 
-```
-
-```
+Thus a a Python program to check the relation between two numbers — whether one number is greater than, equal to, or lesser than another — using a lambda function was executed successfully.
